@@ -28,7 +28,7 @@ More info may be available via WINC3400 Harmony 3 release notes [here](https://g
           <td>WINC 1.2.3+ FW, driver and PC tools</td>
           <td> Either of the following two actions/recommendations should be followed:
               <ul>
-                  <li> WINC 1.2.3+ FW, driver and PC tools do marginal programming to workaround any possible marginal programming. To protect a working WINC part or to recover a flash-corrupted WINC part, upgrade to 1.2.3+ FW and driver is needed. FW upgrade must be done using:
+                  <li> WINC 1.2.3+ FW, driver and PC tools execute double programming to workaround any possible marginal programming. To protect a working WINC part or to recover a flash-corrupted WINC part, upgrade to 1.2.3+ FW and driver is needed. FW upgrade must be done using:
                     <ul>
                         <li>PC tools from 1.2.3+ release package</li>
                         <li>SPI flash APIs from 1.2.3+ host driver </li>
