@@ -16,7 +16,7 @@ More info may be available via WINC3400 Harmony 3 release notes [here](https://g
           <td>1</td>
           <td> WINC FW, driver and PC programming tools</td>
           <td>-</td>
-          <td>If WINC flash is marginally programmed, possible WINC flash corruption may occur where random flash bytes can randomly show 0 or 1 logic upon flash read.                     Symptoms are that WINC part is unable to boot, unable to start, unable to complete initilization or hang during run time</td>
+          <td>If WINC flash is marginally programmed, possible WINC flash corruption may occur where random flash bytes can randomly show 0 or 1 logic upon flash read.                     Symptoms are that WINC part is unable to boot, unable to start, unable to complete initialization or hang during run time</td>
           <td>
               <ul>
                   <li>A part that's running 1.2.2 FW/driver or older</li>
