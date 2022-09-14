@@ -41,5 +41,19 @@ More info may be available via WINC3400 Harmony 3 release notes [here](https://g
               </ul>
           </td>
     </tr>
+    <tr>
+          <td>2</td>
+          <td> WINC3400 Firmware Upgrade Project</td>
+          <td>-</td>
+          <td>Failure to use the board-specific XO offset stored in efuse when calculating lookup tables during image creation/flashing.This may result in sub-optimal RF performance.</td>
+          <td>
+              <ul>
+                  <li>FW Version 1.4.4</li>
+              </ul>
+          </td>
+          <td>FW Version 1.4.4</td>
+          <td> The release zip [WINC3400_FIRMWARE_UPDATE_PROJECT.7z] (https://github.com/MicrochipTech/WINC-Releases/blob/master/WINC3400/1_4_4/WINC3400_FIRMWARE_UPDATE_PROJECT.7z) is updated with script "update_pll_table.bat" which will handle the extraction of XO offset from efuse, and ensure the value is used correctly during image creation.
+          </td>
+    </tr>
   </tbody>
 </table>
