@@ -55,5 +55,34 @@ More info may be available via WINC3400 Harmony 3 release notes [here](https://g
           <td> The release zip <a href="https://github.com/MicrochipTech/WINC-Releases/blob/master/WINC3400/1_4_4/WINC3400_FIRMWARE_UPDATE_PROJECT.7z">WINC3400 FIRMWARE UPDATE PROJECT</a> is updated with script "update_pll_table.bat" which will handle the extraction of XO offset from efuse, and ensure the value is used correctly during image creation.
           </td>
     </tr>
+    <tr>
+          <td>3</td>
+          <td> SSL Demo of wifi_bypass_demos for SAMA5D27-SOM1-EK1 Host Device </td>
+          <td>-</td>
+          <td>User may face connectivity issue with the SSL demo of bypass mode</td>
+          <td>
+              <ul>
+                  <li>wireless_apps_winc3400 Version v3.7.1</li>
+              </ul>
+          </td>
+          <td> wireless_apps_winc3400 Version v3.7.1 </td>
+          <td> The following actions should be followed : 
+          <ul>
+                  <li> Open MCC.
+                  </li> 
+                  <li>Enable the "small stack support" in "wolfSSL Library" component of Project Graph.
+                  </li>
+                  <li>
+                      Increase the Heap size to 400000, in "System" component of Project Graph.
+                  </li>
+                  <li>
+                      Generate the code after making the above mentioned updates.
+                  </li>
+                  <li>
+                      Compile the code and load it into the board.
+                  </li>
+              </ul>
+          </td>
+    </tr>
   </tbody>
 </table>
